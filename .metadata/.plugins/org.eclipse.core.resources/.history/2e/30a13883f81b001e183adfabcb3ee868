@@ -1,0 +1,29 @@
+
+public class Dog extends Animal implements Land{
+	
+	private final int numberOfLegs;
+
+	
+	public Dog(boolean mammals, boolean carnivorous, int mood) {
+		super(mammals,carnivorous,mood);
+		this.numberOfLegs=4;
+	}
+	
+	@Override
+	public void sayHello() {
+		System.out.println("wagging their tails");
+	}
+	
+	@Override
+	public void sayHello(int mood) {
+		if(mood==MOOD_HAPPY)
+			System.out.println("bark loudly");
+		if(mood==MOOD_SCARE)
+			System.out.println("whooping");
+	}
+	
+	public int getNumberOfLegs() {
+		return numberOfLegs;
+	}
+
+}

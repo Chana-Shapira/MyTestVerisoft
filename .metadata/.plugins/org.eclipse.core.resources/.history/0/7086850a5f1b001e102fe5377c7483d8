@@ -1,0 +1,27 @@
+
+public class Frog extends Animal implements Land, Water{
+	
+	private final int numberOfLegs;
+	
+	public Frog(boolean mammals, boolean carnivorous, int mood) {
+		super(mammals,carnivorous,mood);
+		this.numberOfLegs=4;
+	}
+	
+	@Override
+	public void sayHello(int _____) {
+		
+	}
+	
+	public boolean hasGills() {
+		return true;
+	}
+	
+	public boolean hasLaysEggs() {
+		return true;
+	}
+
+	public int getNumberOfLegs() {
+		return numberOfLegs;
+	}
+}

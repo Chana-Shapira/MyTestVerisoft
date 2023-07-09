@@ -1,0 +1,16 @@
+
+public class TestAnimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cat c=new Cat(true, true, 1);
+		Dog d=new Dog(true, false, -1);
+		Frog f=new Frog(false, false, -1);
+		Animal[] animals= {c,d,f};
+		for(Animal animal:animals) {
+			
+		}
+
+	}
+
+}

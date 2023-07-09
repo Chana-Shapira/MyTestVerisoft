@@ -1,0 +1,10 @@
+
+public class Cat extends Animal implements Land {
+	
+	private int numberOfLegs;
+	
+	public Cat() {
+		
+	}
+
+}

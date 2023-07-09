@@ -1,0 +1,15 @@
+
+public class Frog extends Animal implements Land, Water{
+	
+//	private int numberOfLegs;
+	
+	public Frog(boolean mammals, boolean carnivorous, int mood) {
+		super(mammals,carnivorous,mood);
+	}
+	
+	@Override
+	public void sayHello(int _____) {
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+
+public class Animal {
+	
+	private boolean mammals;
+	private boolean carnivorous;
+	private static int MOOD_HAPPY;
+	private static int MOOD_SCARE;
+	private int mood;
+	
+	public Animal(boolean mammals, boolean carnivorous, int mood) {
+		this.mammals=mammals;
+		this.carnivorous=carnivorous;
+		this.mood=mood;
+	}
+	
+	public void sayHello() {
+		
+	}
+	
+	public void sayHello(int _____) {
+		
+	}
+
+	public boolean isMammals() {
+		return mammals;
+	}
+
+	public void setMammals(boolean mammals) {
+		this.mammals = mammals;
+	}
+
+	public boolean isCarnivorous() {
+		return carnivorous;
+	}
+
+	public void setCarnivorous(boolean carnivorous) {
+		this.carnivorous = carnivorous;
+	}
+
+}

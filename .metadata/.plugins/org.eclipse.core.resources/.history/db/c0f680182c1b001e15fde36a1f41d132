@@ -1,0 +1,25 @@
+
+public class Cat extends Animal implements Land {
+	
+	private int numberOfLegs;
+	
+	public Cat(boolean mammals, boolean carnivorous, int mood) {
+		super(mammals,carnivorous,mood);
+	}
+	
+	@Override
+	public void sayHello() {
+		
+	}
+	
+	@Override
+	public void sayHello(int _____) {
+		
+	}
+	
+	@Override
+	public int getNumberOfLegs() {
+		return 2;
+	}
+
+}

@@ -1,0 +1,40 @@
+
+public abstract class Animal {
+	
+	//fields
+	private boolean mammals;
+	private boolean carnivorous;
+	protected final int MOOD_HAPPY=1;//לבדוק אם זה צריך להיות פינל או סטטי
+	protected final int MOOD_SCARE=-1;//לבדוק אם זה צריך להיות פינל או סטטי
+	private int mood;
+	
+	//c-tor
+	public Animal(boolean mammals, boolean carnivorous, int mood) {//האם להוריד את הפאבליק
+		this.mammals=mammals;//האם לשלוח לסט במקום
+		this.carnivorous=carnivorous;//האם לשלוח לסט במקום
+		this.mood=mood;
+	}
+	
+	public void sayHello() {
+	}
+	
+	public abstract void sayHello(int mood);
+
+	//getters and setters
+	public boolean isMammals() {
+		return mammals;//או להחזיר this.______
+	}
+
+	public void setMammals(boolean mammals) {
+		this.mammals = mammals;
+	}
+
+	public boolean isCarnivorous() {
+		return carnivorous;//או להחזיר this.______
+	}
+
+	public void setCarnivorous(boolean carnivorous) {
+		this.carnivorous = carnivorous;
+	}
+
+}
